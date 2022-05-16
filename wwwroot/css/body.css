@@ -12,6 +12,12 @@ body {
     background-attachment: fixed;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .center-h1 {
     font-size: 5em;
     margin: 0;
@@ -19,9 +25,6 @@ body {
     text-align: center;
     color: #F5EBDA;
     font-family: 'Vollkorn SC', serif;
-    position: absolute;
-    bottom: 423px;
-    left: 240px;
 }
 
 .center-h3 {
@@ -31,45 +34,26 @@ body {
     text-align: center;
     color: #F5EBDA;
     font-family: 'Mate', serif;
-    position: fixed;
-    bottom: 44.5%;
-    left: 24.7%;
 }
 
-.btn-2 {
-    position: fixed;
-    left: 62%;
+.action-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
 }
 
-.imgs {
-    position: fixed;
-    bottom: 20%;
-    left: 29%;
+.shoes-container, .money-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-h1 {
     font-size: 2.1em;
-    margin: 0;
-    padding: 0;
+    margin: 1em;
     text-align: center;
     color: #F5EBDA;
     font-family: 'Vollkorn SC', serif;
-    position: fixed;
-    top: 17%;
-    left: 20%;
-    padding: 50px;
-    background-color: rgb(29, 31, 53);
-    border-radius: 30px;
-}
-
-.about-h3s {
-    position: fixed;
-    top: 15%;
-    left: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 23.6%;
 }
 
 .about-h3 {
@@ -84,61 +68,31 @@ body {
 }
 
 .team-h1 {
-    font-size: 2.3em;
-    margin: 0;
-    padding: 0;
     text-align: center;
     color: #F5EBDA;
     font-family: 'Vollkorn SC', serif;
-    position: fixed;
-    top: 12%;
-    left: 41%;
 }
 
 .team-h3 {
     font-size: 1.6em;
-    margin: 0;
-    padding: 0;
     text-align: center;
     color: #F5EBDA;
     font-family: 'Mate', serif;
-    position: fixed;
-    top: 20%;
-    left: 29%;
 }
 
-.team-h3-width {
-    position: fixed;
-    bottom: 40%;
-    left: 55%;
-    width: 9.8%;
-}
 
-.ceo {
-    position: fixed;
-    bottom: 42%;
-    left: 27%;
-    padding: 50px 0px;
-    background-color: rgb(29, 31, 53);
-    border-radius: 30px;
-}
-
-.shoe-imgs {
-    position: fixed;
-    top: 15%;
-    left: 22%;
+.shoe-collection-container {
+    width: 900px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
 }
 
-.shoe {
-    padding: 30px 10px;
-    margin: 10px;
-    background-color: rgb(29, 31, 53);
-    border-radius: 30px;
+.shoe-container {
+    display: flex;
+    align-items: center;
 }
+
 
 .contact-box {
     max-width: 850px;
@@ -232,10 +186,4 @@ textarea {
 .contact-h3-text {
     color: white;
     margin: 1em;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 700px;
 }

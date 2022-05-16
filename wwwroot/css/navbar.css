@@ -1,22 +1,13 @@
-header {
-    width: 100%;
-}
-
 nav {
-    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
     width: 100%;
     background-image: linear-gradient(#00000099, #00000099);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .logo {
@@ -25,23 +16,22 @@ nav {
     font-family: 'Vollkorn SC', serif;
 }
 
-
-.nav-nav .nav-ul .nav-li {
+.nav-li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
 
-    .nav-nav .nav-ul .nav-li .nav-a {
-        color: #ffffff;
-        text-decoration: none;
-        font-family: 'Vollkorn SC', serif;
-        font-weight: bold;
-    }
+.nav-a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: bold;
+}
 
-        .nav-nav .nav-ul .nav-li .nav-a:hover {
-            color: #7bb5f8c7;
-        }
+.nav-nav .nav-ul .nav-li .nav-a:hover {
+    color: #7bb5f8c7;
+}
 
 button {
     border: none;

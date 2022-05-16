@@ -4,11 +4,13 @@
 
 <h1 class="center-h1">Adibas</h1>
 <h3 class="center-h3">Fancy Pair of Shoes That Generate Passive Income</h3>
-<div class="imgs">
-    <img class="btn-1" src="~/images/shoes.png" alt="shoes">
-    <img class="btn-2" src="~/images/money.png" alt="money">
-</div>
-<div class="container">
-    <button type="button" class="btn-1" onclick="location.href='@Url.Action("About", "Home")'">About</button>
-    <button type="button" class="btn-2" onclick="location.href='@Url.Action("Shoe", "Home")'">Get Started</button>
+<div class="action-container">
+    <div class="shoes-container">
+        <img class="btn-1" src="~/images/shoes.png" alt="shoes">
+        <button type="button" class="btn-1" onclick="location.href='@Url.Action("About", "Home")'">About</button>
+    </div>
+    <div class="money-container">
+        <img class="btn-2" src="~/images/money.png" alt="money">
+        <button type="button" class="btn-2" onclick="location.href='@Url.Action("Shoe", "Home")'">Get Started</button>
+    </div>
 </div>
