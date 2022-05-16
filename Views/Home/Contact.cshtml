@@ -1,0 +1,24 @@
+﻿@model Assignment_5.Models.ContactModel
+@{
+    ViewData["Title"] = "Contact Us";
+} 
+<div class="contact-container">
+            <h3 class="contact-h3">Contact Us</h3>
+            <h3 class="contact-h3-text">In Case of Any Problems, Any Suggestions, Or Any Objections, Please Use The Form</h3>
+            <form method="post">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<input type="text" class="field" name="name" id="name" placeholder="Your Name">
+				<span asp-validation-for="Name" class="text-danger"></span>
+				<input type="text" class="field" name="email" id="email"  placeholder="Your Email">
+				<span asp-validation-for="Email" class="text-danger"></span>
+				<input type="text" name="message" placeholder="Message" class="field" id="msgbox">
+				<span asp-validation-for="Message" class="text-danger"></span>
+				<input type="submit" class="btn">
+            </form>
+		<div class="contact-info">
+		@foreach(var item in (List<ContactModel>) ViewData["messages"])
+			{
+				<h3 class="contact-h3-info">@item.Name</h3>
+			}
+		</div>
+		</div>

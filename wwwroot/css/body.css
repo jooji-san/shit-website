@@ -1,0 +1,241 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+    background-image: url('../images/Adibas.jpg');
+    background-attachment: fixed;
+}
+
+.center-h1 {
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #F5EBDA;
+    font-family: 'Vollkorn SC', serif;
+    position: absolute;
+    bottom: 423px;
+    left: 240px;
+}
+
+.center-h3 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #F5EBDA;
+    font-family: 'Mate', serif;
+    position: fixed;
+    bottom: 44.5%;
+    left: 24.7%;
+}
+
+.btn-2 {
+    position: fixed;
+    left: 62%;
+}
+
+.imgs {
+    position: fixed;
+    bottom: 20%;
+    left: 29%;
+}
+
+.about-h1 {
+    font-size: 2.1em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #F5EBDA;
+    font-family: 'Vollkorn SC', serif;
+    position: fixed;
+    top: 17%;
+    left: 20%;
+    padding: 50px;
+    background-color: rgb(29, 31, 53);
+    border-radius: 30px;
+}
+
+.about-h3s {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23.6%;
+}
+
+.about-h3 {
+    font-size: 17px;
+    margin: 30px;
+    text-align: center;
+    color: #F5EBDA;
+    font-family: 'Mate', serif;
+    padding: 15px 20px;
+    background-color: rgb(29, 31, 53);
+    border-radius: 30px;
+}
+
+.team-h1 {
+    font-size: 2.3em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #F5EBDA;
+    font-family: 'Vollkorn SC', serif;
+    position: fixed;
+    top: 12%;
+    left: 41%;
+}
+
+.team-h3 {
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #F5EBDA;
+    font-family: 'Mate', serif;
+    position: fixed;
+    top: 20%;
+    left: 29%;
+}
+
+.team-h3-width {
+    position: fixed;
+    bottom: 40%;
+    left: 55%;
+    width: 9.8%;
+}
+
+.ceo {
+    position: fixed;
+    bottom: 42%;
+    left: 27%;
+    padding: 50px 0px;
+    background-color: rgb(29, 31, 53);
+    border-radius: 30px;
+}
+
+.shoe-imgs {
+    position: fixed;
+    top: 15%;
+    left: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.shoe {
+    padding: 30px 10px;
+    margin: 10px;
+    background-color: rgb(29, 31, 53);
+    border-radius: 30px;
+}
+
+.contact-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left {
+    background-size: cover;
+    height: 100%;
+}
+
+.right {
+    padding: 25px 40px;
+}
+
+
+.field {
+    font-family: 'Mate', serif;
+    width: 100%;
+    border: 2px solid rgb(29, 26, 26);
+    outline: none;
+    background-color: rgba(20, 18, 18, 0.6);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    border-radius: 30px;
+    color: white;
+}
+
+    .field:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        color: white;
+    }
+
+textarea {
+    min-height: 150px;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #7bb5f8c7;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    background-color: #7bb5f8c7;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-family: 'Vollkorn SC', serif;
+    font-weight: bold;
+}
+
+    .btn:hover {
+        background-color: #7bb5f8c7;
+        transform: scale(1.3);
+        cursor: pointer;
+    }
+
+.field:focus {
+    background-color: rgb(42, 41, 46);
+    color: white;
+}
+
+#msgbox {
+    min-height: 150px;
+}
+
+.text-danger {
+    color: #F5EBDA;
+    font-family: 'Mate', serif;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-h3 {
+    color: white;
+    margin: 1em;
+}
+
+.contact-h3-text {
+    color: white;
+    margin: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
